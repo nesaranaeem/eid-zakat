@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Inter", sans-serif;
 }
+/* banner section */
 .main-banner {
   height: 100vh;
   width: 100%;
@@ -15,6 +16,7 @@
   height: auto;
   color: #ffffff;
   padding: 15% 0 0 15%;
+  margin: 0 50% 0 0;
   font-weight: 700;
   text-align: left;
   line-height: 75px;
@@ -28,6 +30,7 @@
   line-height: 28px;
   text-align: left;
   padding: 0 0 0 15%;
+  margin: 0 50% 3% 0;
   text-shadow: 2px 2px #000000;
 }
 .button {
@@ -42,4 +45,57 @@
 }
 .button:hover {
   background-color: blue;
+}
+/* info section */
+#info {
+}
+.section-area {
+  padding-top: 40px;
+  width: 100%;
+  background-color: #ffffff;
+}
+.flex {
+  display: flex;
+}
+.info-1 {
+}
+.info-1-heading {
+  font-size: 45px;
+  color: #121212;
+  font-weight: 700;
+  margin: 0 0 0 27%;
+}
+.info-1-p {
+  font-family: "Poppins", sans-serif;
+  margin: 0 0 15px 27%;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 0 15px 0;
+}
+.info-1-button {
+  margin: 0 0 0 27%;
+  color: #ffffff;
+  font-weight: 600;
+  background-color: #ef233c;
+  padding: 15px 20px 15px 20px;
+  font-size: 20px;
+  text-decoration: none;
+  text-shadow: 1px 1px #000000;
+}
+
+.info-1-button:hover {
+  background-color: blue;
+}
+.info-1-image {
+}
+.info-1-image img {
+  padding-right: 80px;
+  height: 70%;
+}
+img.play-1 {
+  position: relative;
+  height: 56px;
+  width: 56px;
+  left: 30%;
+  bottom: 40%;
 }
