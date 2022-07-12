@@ -1,17 +1,38 @@
+/* common things */
 .body {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
   box-sizing: border-box;
+  background-color: #ffffff;
+}
+.center-text {
+  text-align: center;
+}
+.h2-title {
+  font-size: 45px;
+  font-weight: 700;
+  color: #121212;
+  height: auto;
+  text-align: center;
+  
+}
+.p-details {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #707070;
+  line-height: 28px;
+
 }
 /* banner section */
 .main-banner {
   height: 100vh;
   width: 100%;
-  background-image: url(./images/main-banner.png);
-  background-repeat: no-repeat;
-  box-shadow: inset 0 0 120px 120px #1a1a1a, inset 0 0 0px 0px white;
-  /* ref: https://prnt.sc/nIs-tIrzoJGS box shadow ekhono clear naa. next support session e bujhte hobe */
+  background-image:
+  linear-gradient(to right, black, transparent),
+  url('../images/main-banner.png');
+  );
 }
 .banner-heading {
   height: auto;
@@ -130,4 +151,36 @@ img.play-1 {
 
 .info-2-button:hover {
   background-color: blue;
+}
+
+/* help items */
+.center-item {
+  margin: 0 0 0 8%;
+  padding: 0 0 30px 0;
+}
+.help-item {
+  background-color: #FEF4F5;
+  width: 550px;
+  margin: 0 25px 0 0;
+}
+.help-title {
+  font-size: 20px;
+  color: #121212;
+  font-weight: 700;
+  position: relative;
+  bottom: 35px;
+}
+img.help-img {
+  margin: 30px 0 0 0;
+  padding: 0 0 0 30px;
+}
+.help-p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 0 0 30px;
+  position: relative;
+  left: 60px;
+  bottom: 45px;
+  margin: 15px 100px 0 0;
 }
